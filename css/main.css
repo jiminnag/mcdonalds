@@ -1,5 +1,6 @@
-#wrap {
-    width: 100%;
+#warp {
+   width: 100%;
+    height: 100%;
 }
 
 #header {
@@ -23,6 +24,7 @@
     position: relative;
     top: 28px;
     float: left;
+    width: 106px;
 }
 
 #header_area .logo a {
@@ -47,7 +49,7 @@
 
 #nav .menu .menu_m {
     display: inline-block;
-    padding-left: 0;
+    padding-left: 150px;
     text-align: left;
     vertical-align: top;
     margin-left: -136px;
@@ -60,7 +62,7 @@
 
 #nav .menu .menu_m a {
     position: relative;
-    margin-left: 150px;
+    margin-left: 100px;
     padding: 0 5px;
     color: #292929;
     font-size: 20px;
@@ -69,59 +71,153 @@
 }
 
 #header .sub_area {
-    position: absolute;
     top: 140px;
-    left: 0;
     z-index: 9999;
-    width: 100%;
-    height: 300px;
+    height: auto;
     margin: 0 auto;
-    width: 960px;
+    width: 1168px;
     position: absolute;
+    margin-right: 170px;
     left: 0;
     right: 0;
     text-align: center;
 }
 
 #nav .sub {
-    margin: 0 auto;
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: -50px;
     width: 100%;
-    background-color: #fff;
+    height: 40px;
 }
 
 #nav .sub1 {
+    width: auto;
+    margin-left: 80px;
     z-index: 400;
+    font-size: 20px;
+}
+
+#nav .sub1 li:nth-child(1) {
+    width: auto;
+    margin-left: 10px;
+
+}
+
+#nav .sub1 li:nth-child(2) {
+    width: auto;
+    margin-left: 35px;
+
+}
+
+#nav .sub1 li:nth-child(3) {
+    width: auto;
+    margin-left: 25px;
+
+}
+
+#nav .sub1 li:nth-child(4) {
+    width: auto;
+    margin-left: 40px;
+
 }
 
 #nav .sub2 {
+    margin-left: 100px;
+    width: auto;
     z-index: 300;
 }
 
+#nav .sub2 li:nth-child(1) {
+    width: auto;
+    margin-left: -5px;
+
+}
+
+#nav .sub2 li:nth-child(2) {
+    width: auto;
+    margin-left: 35px;
+
+}
+
+#nav .sub2 li:nth-child(3) {
+    width: auto;
+    margin-left: 25px;
+
+}
+
+#nav .sub2 li:nth-child(4) {
+    width: auto;
+    margin-left: 30px;
+
+}
+
 #nav .sub3 {
+    margin-left: 100px;
+    width: auto;
     z-index: 200;
 }
 
+#nav .sub3 li:nth-child(1) {
+    width: auto;
+    margin-left: -10px;
+
+}
+
+#nav .sub3 li:nth-child(2) {
+    width: auto;
+    margin-left: 40px;
+
+}
+
+#nav .sub3 li:nth-child(3) {
+    width: auto;
+    margin-left: 25px;
+
+}
+
 #nav .sub4 {
+    margin-left: 100px;
+    width: auto;
     z-index: 100;
+}
+
+#nav .sub4 li:nth-child(1) {
+    width: auto;
+    margin-left: -5px;
+
+}
+
+#nav .sub4 li:nth-child(2) {
+    width: auto;
+    margin-left: 40px;
+
+}
+
+#nav .sub4 li:nth-child(3) {
+    width: auto;
+    margin-left: 25px;
+
+}
+
+#nav .sub4 li:nth-child(4) {
+    width: auto;
+    margin-left: 35px;
+
 }
 
 
 #nav .sub li {
     float: left;
-    width: 240px;
-    height: 30px;
-    text-align: center;
+    width: 200px;
     line-height: 50px;
-    font-size: 20px;
-    font-weight: 800;
+    font-size: 16px;
+    font-weight: 900;
 }
 
 #nav .sub li a {
+    margin-left: -25px;
     display: block;
-    width: 100%;
+    width: 180px;
     height: 30px;
 }
 
@@ -129,7 +225,7 @@
 #nav .menu_r {
     position: relative;
     float: right;
-    margin: 0 90px 0 50px;
+    margin: 0 180px 0 50px;
 }
 
 #nav .menu_r li {
@@ -143,92 +239,25 @@
     position: relative;
 }
 
-.group {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
 .main_img {
     width: 100%;
-    height: 100%;
-}
-
-.main_img ul {
-    width: 100%;
-    height: 100%;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    height: 540px;
     position: relative;
 }
 
-.main_img li {
+ .main_img li {
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 0;
-    left: 0;
 }
 
 .main_img li img {
+    display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
+} 
 
-.main_bt_l {
-    width: 100%;
-    height: 0px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 1;
-}
-
-.main_bt_r {
-    width: 100%;
-    height: 0px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 1;
-}
-
-.main_b1 {
-    width: 21px;
-    height: 36px;
-    float: left;
-    position: relative;
-    left: 50px;
-
-}
-
-.main_b1 img {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 0;
-    cursor: pointer;
-}
-
-.main_b2 {
-    width: 21px;
-    height: 36px;
-    float: left;
-    position: relative;
-    right: -1800px;
-}
-
-.main_b2 img {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    left: 0;
-    cursor: pointer;
-}
 
 
 #contents {
@@ -255,7 +284,6 @@
 
 #best {
     overflow: hidden;
-    position: relative;
     width: 1300px;
     margin: 0 auto;
 }
@@ -310,6 +338,7 @@
 }
 
 .bt .b1 {
+    left: 10px;
     border: 0px;
     border-radius: 100px;
     width: 21px;
@@ -317,8 +346,8 @@
     float: left;
     position: relative;
     bottom: 270px;
-    right: -290px;
     cursor: pointer;
+    top: -220px;
 }
 
 .bt img {
@@ -328,23 +357,24 @@
 
 .bt .b2 {
     border: 0px;
+    top: -220px;
     border-radius: 100px;
     width: 21px;
     height: 36px;
     float: right;
     position: relative;
     bottom: 270px;
-    right: -460px;
+    right: -140px;
     cursor: pointer;
 }
 
 
 
 #new_top {
-    overflow: hidden;
-    position: relative;
-    width: 1280px;
+    width: 100%;
+    height: 500px;
     margin: 0 auto;
+    margin-top: 95px;
 }
 
 #new_top h3 {
@@ -357,9 +387,9 @@
 }
 
 #new_in {
-    margin: 0 auto;
+    overflow: hidden;
     width: 1300px;
-    height: 500px;
+    margin: 0 auto;
 }
 
 #new_in .new_b {
@@ -412,26 +442,29 @@
 }
 
 .bt .b3 {
+    top: -220px;
+    left: 10px;
     border: 0px;
     border-radius: 100px;
     width: 21px;
     height: 36px;
     float: left;
     position: relative;
-    bottom: 366px;
-    right: -300px;
+    bottom: 270px;
+
     cursor: pointer;
 }
 
 .bt .b4 {
+    top: -220px;
     border: 0px;
     border-radius: 100px;
     width: 21px;
     height: 36px;
     float: right;
     position: relative;
-    bottom: 366px;
-    right: -470px;
+    bottom: 270px;
+    right: -140px;
     cursor: pointer;
 }
 
@@ -495,6 +528,7 @@
     line-height: 100%;
     font-weight: 400;
 }
+
 
 #con3_in .c_btn {
     margin: 35px 0 55px;
@@ -587,11 +621,9 @@
 }
 
 
-
-
 #footer {
     margin-top: 95px;
-    width: 100%;
+    max-width: 100%;
     height: 260px;
     color: #fff;
     font-size: 14px;
@@ -624,6 +656,7 @@
 
 #footer_in .sns {
     float: right;
+
 }
 
 #footer_in .sns li {
