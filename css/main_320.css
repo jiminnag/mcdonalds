@@ -41,7 +41,7 @@
 @media screen and (max-width: 480px) {
     #main {
         width: 100%;
-        height: 140px;
+        height: 200px;
     }
 
     #main .group {
@@ -61,7 +61,7 @@
 
     .main_img {
         width: 100%;
-        height: auto;
+        height: 200px;
         position: relative;
     }
 
@@ -82,11 +82,10 @@
     width: 100%;
     height: auto;
     margin: 0 auto;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 #best_top h3 {
-    margin: 0 0 30px;
     font-size: 5vw;
     color: #000;
     border-top: 2px solid #000;
@@ -168,11 +167,10 @@
     width: 100%;
     height: 100%;
     margin: 20px auto;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 #new_top h3 {
-    margin: 0 0 30px;
     font-size: 5vw;
     color: #000;
     border-top: 2px solid #000;
@@ -269,14 +267,13 @@
     text-align: center;
 }
 
-#con2_in h3 {
-    margin: 0 0 0px 0;
+#con2_in p {
     font-size: 4vw;
     color: #000;
     border-top: 2px solid #000;
     border-bottom: 2px solid #000;
     padding: 20px 0;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     text-align: center;
 }
 
@@ -300,22 +297,16 @@
 }
 
 #con3_in .web_container {
-    padding-top: 0px;
+    padding-top: 30px;
     padding-bottom: 30px;
 }
 
 #con3_in h2 {
     margin-bottom: 16px;
-    font-size: 5vw;
+    font-size: 4vw;
     line-height: 100%;
     font-weight: 400;
 
-}
-
-#con3_in p {
-    font-size: 3vw;
-    line-height: 100%;
-    font-weight: 400;
 }
 
 #con3_in .c_btn {
@@ -327,14 +318,14 @@
     border-radius: 25px;
     border: 1px solid #d72300;
     display: inline-block;
-    width: 30vw;
-    height: 10vw;
+    width: 100px;
+    height: 30px;
     font-size: 2.4vw;
     padding: 12px 10px 10px;
     font-weight: 400;
     color: #fff;
     text-align: center;
-    line-height: 4vw;
+    line-height: 5px;
     border-radius: 10px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -372,54 +363,51 @@
 #con3_in .shoplist .car_delivery {
     background: url(../images/delivery.gif) 50% 0 no-repeat;
     background-size: 11vw;
-    padding: 10vw 0px 0px 0px;
 }
 
 #con3_in .shoplist .car_delivery .WEB {
-    font-size: 1.1vw;
-    line-height: 0;
+    font-size: 0.2vw;
 
 }
 
 #con3_in .shoplist .king {
     background: url(../images/king.gif) 50% 0 no-repeat;
     background-size: 11vw;
-    padding: 10vw 0px 0px 0px;
 }
 
 #con3_in .shoplist .king .WEB {
-    font-size: 1.1vw;
+    font-size: 0.2vw;
 
 }
 
 #con3_in .shoplist .drive {
     background: url(../images/drive.gif) 50% 0 no-repeat;
     background-size: 11vw;
-    padding: 10vw 0px 0px 0px;
 }
 
 #con3_in .shoplist .drive .WEB {
-    font-size: 1.1vw;
+    font-size: 0.2vw;
 }
 
 #con3_in .shoplist .time {
+    display: none;
     background: url(../images/hours.gif) 50% 0 no-repeat;
     background-size: 11vw;
-    padding: 10vw 0px 0px 0px;
 }
 
 #con3_in .shoplist .time .WEB {
-    font-size: 1.1vw;
+    font-size: 0.2vw;
 }
 
 #con3_in .shoplist .morning {
+    display: none;
     background: url(../images/morning.gif) 50% 0 no-repeat;
     background-size: 11vw;
-    display: none;
 }
 
 #con3_in .shoplist .morning .WEB {
-    font-size: 1.1vw;
+    font-size: 0.2vw;
+
 }
 
 #con3_in .shoplist .king em,
@@ -431,13 +419,13 @@
     display: block;
     color: red;
     font-weight: 700;
-    font-size: 1.1vw;
+    font-size: 0.2vw;
 }
 
 #footer {
-    margin-top: 30px;
+    margin-top: 65px;
     width: 100%;
-    height: 100px;
+    height: 145px;
     color: #fff;
     font-size: 14px;
     line-height: 1.6;
@@ -454,9 +442,7 @@
 }
 
 #footer_in .ft_area {
-    margin-left: 30px;
-    float: left;
-    width: 190px;
+    width: 120px;
 }
 
 #footer_in .ft_area a {
