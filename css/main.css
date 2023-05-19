@@ -484,7 +484,7 @@
 
 #con2_in .app {
     width: 100%;
-    height: 480px;
+    height: auto;
     position: relative;
     text-align: center;
 }
